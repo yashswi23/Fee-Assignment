@@ -1,0 +1,42 @@
+
+div{
+    display: inline;
+  /* padding-left: 5px;*/
+    margin: 5px;
+    margin-left:100px;
+    
+}
+img{
+    margin-top: 50px;
+    padding-left:15px;
+    padding-top: 50px;
+    width:200px
+}
+body{
+    background-color: #262626;
+}
+h1{
+    text-align:center;
+    font-size:40px;
+    font-family:serif;
+    color:whitesmoke;
+    border-bottom:2px solid whitesmoke;
+    padding-bottom:10px;
+}
+
+h2{
+    color:whitesmoke;
+    font-family: serif;
+    padding-left: 10px;;
+}
+p,pre{
+    font-family: Fraunces;
+    color:yellowgreen;
+    padding-left: 10px;
+    
+
+}
+pre{
+    text-align: left;
+    padding-left: 10px;
+}

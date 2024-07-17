@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission form</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .image-wrap {
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .image-wrap img {
+            width: 100px; /* adjust the width as needed */
+            height: 100px; /* adjust the height as needed */
+          }
+          
+          .image-wrap span {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+          }
+          
+          .image-wrap p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+          }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">College Admission Form</h1>
+    <form id="college-admission-form" action="index.html">
+    <label for="nam">Name</label>
+    <input type="text" id="nam" name="fullname" placeholder="Enter Your Name">
+    <br>
+    <br>
+    <label for="mail">Email</label>
+    <input type="text" id="mail" name="email" placeholder="Enter Your email">
+    <br>
+    <br>
+    <label for="pass">Passsword</label>
+    <input type="text" id="pass" name="pwd" placeholder="Enter Password">
+    <br>
+    <br>
+    <label for="gen">Gender</label>
+    <input type="radio" id="gen" name="gend" value="Male">Male
+    <input type="radio" id="gen" name="gend" value="Female">Female
+    <br>
+    <br>
+    <label for="text">About Me</label>
+    <textarea type="text" id="text" name="aboutme"></textarea>
+    <br>
+    <br>
+    <label for="dob">DOB</label>
+    <input type="date" id="dob" name="dateob">
+    <br>
+    <br>
+    <label for="subject">Optional Subjects</label>
+    <select  id="subject" name="subject">
+        <option value="sports">Sports</option>
+        <option value="music">Music</option>
+        <option value="Arts">Arts</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" id="check" name="agreetoterms">
+    <label for="check">I agree to the terms and conditions</label>
+    <br>
+    <br>
+    <input type="submit" id="sub" name="submit" value="Submit">
+
+
+    </form>
+    <div class="image-container">
+        <div class="image-wrap">
+          <img src="image1.jpg" alt="Image 1">
+          <span>Image 1 Caption</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+        <div class="image-wrap">
+          <img src="image2.jpg" alt="Image 2">
+          <span>Image 2 Caption</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+        <div class="image-wrap">
+          <img src="image3.jpg" alt="Image 3">
+          <span>Image 3 Caption</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+        <div class="image-wrap">
+          <img src="image4.jpg" alt="Image 4">
+          <span>Image 4 Caption</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+      </div>
+    
+</body>
+</html>
